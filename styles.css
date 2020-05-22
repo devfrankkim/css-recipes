@@ -89,24 +89,36 @@ body {
 }
 
 .images:nth-child(1) {
-  background-image: url("https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_1280.jpg");
+  background-image: linear-gradient(
+      rgba(241, 242, 246, 0.2),
+      rgb(0, 0, 0, 0.5) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2014/11/05/15/57/salmon-518032_1280.jpg");
   background-size: cover;
-  opacity: 0.7;
 }
 .images:nth-child(2) {
-  background-image: url("https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg");
+  background-image: linear-gradient(
+      rgba(241, 242, 246, 0.2),
+      rgb(0, 0, 0, 0.5) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2017/05/07/08/56/pancakes-2291908_1280.jpg");
   background-size: cover;
-  opacity: 0.7;
 }
 .images:nth-child(3) {
-  background-image: url("https://cdn.pixabay.com/photo/2016/04/13/06/23/toddler-1326097_1280.jpg");
+  background-image: linear-gradient(
+      rgba(241, 242, 246, 0.2),
+      rgb(0, 0, 0, 0.5) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2016/04/13/06/23/toddler-1326097_1280.jpg");
   background-size: cover;
-  opacity: 0.7;
 }
 .images:nth-child(4) {
-  background-image: url("https://cdn.pixabay.com/photo/2017/04/23/09/44/smoothies-2253423_1280.jpg");
+  background-image: linear-gradient(
+      rgba(206, 206, 207, 0.2),
+      rgba(134, 132, 132, 0.5) 100%
+    ),
+    url("https://cdn.pixabay.com/photo/2017/04/23/09/44/smoothies-2253423_1280.jpg");
   background-size: cover;
-  opacity: 0.7;
 }
 
 .box__column {
